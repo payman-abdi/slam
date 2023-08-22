@@ -1,5 +1,8 @@
 input:focus{
     background-color: black;
-    color: aqua;
+    color: rgb(0, 255, 157);
 
+}
+body{
+    background-color: rgb(2, 132, 165);
 }

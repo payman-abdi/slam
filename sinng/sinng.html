@@ -6,32 +6,50 @@
     <title>Document</title>
     <link rel="stylesheet" href="index.css">
     <style>
+        input[type=submit]{
+            padding: 10px 30px 10px 30px;
+            border: 2px aqua solid;
+            background-color: rgb(2, 132, 165);
+        }
         div{
-        width: 99%;
-        height: 400px;
-        background-color: blueviolet;
-        border: 10px red solid;
+        width: 40%;
+        height: 550px;
+        background-color: rgb(4, 100, 124);;
+        border: 10px rgb(0, 255, 221) solid;
         text-align: center;
         border-radius: 20px;
+        margin: 10px auto;
+        direction: rtl;
+        }
+        img{
+            border-radius:50% ;
+            width: 250px;
+            height: 250px;
         }
     
 
     </style>
 </head>
 <body>
-    <div>
-        <img id="bdr" src="pd.jpg" alt="">
+    <div class="bad">
+      <p id="bdr"><img src="pd.jpg" alt=""></p>
         <form action=""></form>
-        <input type="text" placeholder="name">
-        <input type="text" placeholder="user name">
+        <input type="text" placeholder="نام کاربری">
         <br>
-        <input type="text" placeholder="gmile">
-        <input type="password" placeholder="password">
+        <br>
+        <input type="text" placeholder="رمز عبور">
+        <br>
+        <br>
+        <input type="text" placeholder="تکرار رمز عبور">
+        
+        <br>
         <br>
         <input type="radio" name="pa" placeholder="male">
         <label>male</label>
         <input type="radio" name="pa" placeholder="fimale">
         <label >fimale</label>
+        <br>
+<br>
         <br>
         <input type="submit" value="login">
     </div>
